@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Vita Vallis | Contact</title>
+        <meta name="author" content="Charles Wohr">
+        <meta name="description" content="Contact Vita Vallis for the best vacation in the Swiss Alps">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- GOOGLE FONTS LINKS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- CSS STYLESHEET -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1> <a href="#home" aria-label="Go to the Vita Vallis homepage">Vita Vallis</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#accomodations">Accommodations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="Beautiful Swiss Valley bursting with lush green alpine trees in the foreground and the scenic snowy alps in the background." width="1440" height="560">
+        </header>
+        <main>
+            <section id="contact">
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                    <p>Required fields marked with a *</p>
+                    <img src="images/swiss-peak.jpg" alt="A river of water runs from a lone snowy peak through lush alpine trees." width="350" height="455">
+                </div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Full Name*</label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    
+                    <label for="my-email">Email Address*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    
+                    <label for="my-phone">Phone Number</label>
+                    <input type="tel" name="my-phone" id="my-phone">
+                    
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+                                        
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                                
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>	
+                    
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy;2023 - Vita Vallis</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
